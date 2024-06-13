@@ -1,6 +1,11 @@
 import React from 'react';
 
-const PreviousClients = ({ clientLogos }) => {
+// Define the type for the clientLogos prop
+type ClientLogosProps = {
+  clientLogos: string[]; // Assuming clientLogos is an array of image URLs
+};
+
+const PreviousClients: React.FC<ClientLogosProps> = ({ clientLogos }) => {
   const renderClientLogos = () => {
     return clientLogos.map((logo, index) => (
       <div key={index} className="w-20 h-20 flex justify-center items-center">
@@ -38,8 +43,7 @@ const Clients = () => {
     '/image 10.svg',
     '/image 11.svg',
     '/image 12.svg',
-    '/image 13.svg',
-  ];
+    '/image 13.svg',  ];
 
   return (
     <div className="bg-white bg-opacity-10 border border-slate-600 border-opacity-20 rounded-xl p-8 mt-10">
