@@ -6,7 +6,7 @@ export const siteConfig = {
   navItems: [
     {
       label: "Home",
-      href: "../layouts/default.tsx
+      href: "default.tsx
 ",
     },
   links: {
