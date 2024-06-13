@@ -1,14 +1,13 @@
-export type SiteConfig = typeof siteConfig;
-
 export const siteConfig = {
   name: "Next.js + NextUI",
   description: "Make beautiful websites regardless of your design experience.",
   navItems: [
     {
       label: "Home",
-      href: "/layouts/default.tsx"
-",
+      href: "/", // Adjust the href as per your application structure
     },
+    // Add more nav items as needed
+  ],
   links: {
     github: "https://github.com/nextui-org/nextui",
     twitter: "https://twitter.com/getnextui",
@@ -17,3 +16,5 @@ export const siteConfig = {
     sponsor: "https://patreon.com/jrgarciadev",
   },
 };
+
+export type SiteConfig = typeof siteConfig;
