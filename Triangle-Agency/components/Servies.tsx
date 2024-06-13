@@ -15,7 +15,7 @@ const ServicesSection = () => {
                 <Card className="bg-white/opacity-10 rounded-xl border border-slate-600/opacity-20 p-8 flex flex-col justify-center items-center">
                     <div className="text-xl font-medium uppercase">Marketing Solutions</div>
                     <div className="w-44 h-44 py-10 flex justify-center items-center">
-                        <img src="../vision.svg" alt="Vision" className="w-48 h-48" />
+                        <img src="../marketing.svg" alt="Vision" className="w-48 h-48" />
                     </div>
                     <div className="text-purple-300 text-base font-normal">
                         Digital Marketing, Marketing Strategy, Growth Hacking, Market Research, Social Media Management
@@ -26,7 +26,7 @@ const ServicesSection = () => {
                 <Card className="bg-white/opacity-10 rounded-xl border border-slate-600/opacity-20 p-8 flex flex-col justify-center items-center">
                     <div className="text-2xl font-medium">Business Development</div>
                     <div className="w-44 h-44 py-10 flex justify-center items-center">
-                        <img src="../vision.svg" alt="Vision" className="w-24 h-24" />
+                        <img src="../dev.svg" alt="Vision" className="w-24 h-24" />
                     </div>
                     <div className="text-purple-300 text-base font-normal">
                         Business Intelligence, Business Strategy, Localization, Project Management
@@ -37,7 +37,7 @@ const ServicesSection = () => {
                 <Card className="bg-white/opacity-10 rounded-xl border border-slate-600/opacity-20 p-8 flex flex-col justify-center items-center">
                     <div className="text-xl font-medium uppercase">PR & Communications</div>
                     <div className="w-44 h-44 py-10 flex justify-center items-center">
-                        <img src="../vision.svg" alt="Vision" className="w-48 h-48" />
+                        <img src="../Build a community.svg" alt="Vision" className="w-48 h-48" />
                     </div>
                     <div className="text-purple-300 text-xl font-medium">
                         Media Relations, Press Releases, Internal Communications
@@ -48,7 +48,7 @@ const ServicesSection = () => {
                 <Card className="bg-white/opacity-10 rounded-xl border border-slate-600/opacity-20 p-8 flex flex-col justify-center items-center">
                     <div className=" text-xl font-medium">Creative & Innovative Solutions</div>
                     <div className="w-44 h-44 py-10 flex justify-center items-center">
-                        <img src="../vision.svg" alt="Vision" className="w-48 h-48" />
+                        <img src="../Augmented reality.svg" alt="Vision" className="w-48 h-48" />
                     </div>
                     <div className="text-purple-300 text-xl font-medium">
                         Branding, Gamification, 3D Visualization, AR Solutions, Creative Campaigns
@@ -59,7 +59,7 @@ const ServicesSection = () => {
                 <Card className="bg-white/opacity-10 rounded-xl border border-slate-600/opacity-20 p-8 flex flex-col justify-center items-center">
                     <div className="text-xl font-medium">Pop-Ups & Activations</div>
                     <div className="w-44 h-44 py-10 flex justify-center items-center">
-                        <img src="../vision.svg" alt="Vision" className="w-48 h-48" />
+                        <img src="../Project planning.svg" alt="Vision" className="w-48 h-48" />
                     </div>
                     <div className="text-purple-300 text-xl font-medium">
                         Planning, Development, Operations, Sponsorships, Execution
@@ -70,7 +70,7 @@ const ServicesSection = () => {
                 <Card className="bg-white/opacity-10 rounded-xl border border-slate-600/opacity-20 p-8 flex flex-col justify-center items-center">
                     <div className="text-white text-xl font-medium">Production House</div>
                     <div className="w-44 h-44 py-10 flex justify-center items-center">
-                        <img src="../vision.svg" alt="Vision" className="w-48 h-48" />
+                        <img src="../Production.svg" alt="Vision" className="w-48 h-48" />
                     </div>
                     <div className="text-purple-300 text-xl font-medium">
                         Photography, Videography, Advertisement, Motion Graphics
