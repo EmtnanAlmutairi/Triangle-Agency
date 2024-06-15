@@ -4,6 +4,7 @@ import Slider from "react-slick";
 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import React from "react";
 
 const ImageSlider = () => {
   const settings = {
@@ -31,19 +32,15 @@ const ImageSlider = () => {
     "/Page 20.png",
   ];
 
+  const slides: any[] = images.map((src, index) => (
+    <div key={index}>
+      <img src={src} alt={`Slide ${index + 1}`} className="w-full h-auto" />
+    </div>
+  ));
+
   return (
     <div className="container mx-auto px-4 py-8">
-      <Slider {...settings}>
-        {images.map((src, index) => (
-          <div key={index}>
-            <img
-              src={src}
-              alt={`Slide ${index + 1}`}
-              className="w-full h-auto"
-            />
-          </div>
-        ))}
-      </Slider>
+      <Slider {...settings}>{slides}</Slider>
     </div>
   );
 };
