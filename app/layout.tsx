@@ -159,7 +159,7 @@ export default function DefaultLayout({
             {/* Logo and Agency Name */}
             <div className="text-center mt-8">
               <img
-                src="/logo.svg"
+                src="/Logo.svg"
                 alt="logo"
                 className="w-16 h-16 mx-auto mb-2"
               />
