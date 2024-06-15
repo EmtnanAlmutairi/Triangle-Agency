@@ -1,6 +1,5 @@
 import { Fira_Code as FontMono, Inter as FontSans } from "next/font/google";
 //
-import AboutUsSection from "@/components/AboutUsSection";
 import Clients from "@/layouts/clients";
 import ServicesSection from "@/components/Servies";
 import OurProjects from "@/components/OurProjects";
@@ -9,6 +8,7 @@ import { Navbar } from "@/components/navbar";
 
 import "@/styles/globals.css";
 import Link from "next/link";
+import AboutUsSection from "@/components/AboutUsSection";
 
 const fontSans = FontSans({
   subsets: ["latin"],

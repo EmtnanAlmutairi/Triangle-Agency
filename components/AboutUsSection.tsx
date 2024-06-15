@@ -2,7 +2,7 @@ import { Card } from '@nextui-org/react';
 
 const Aboutussection = () => {
   return (
-    <div className="flex flex-col items-center gap-20 w-full max-w-6xl px-4 py-8 mx-auto mb-10">
+    <div id="about-us" className="flex flex-col items-center gap-20 w-full max-w-6xl px-4 py-8 mx-auto mb-10">
       <div className="flex flex-col items-center gap-8 w-auto">
         <Card className="bg-violet-950 border border-violet-900 rounded-3xl p-6 w-full">
           <p className="text-center text-violet-100 text-xl font-medium">WHO WE ARE?</p>
@@ -18,8 +18,8 @@ const Aboutussection = () => {
           <div className="flex flex-col gap-6">
             <h1 className="text-center text-xl font-medium uppercase">Our Vision</h1>
             <h4 className="text-center text-purple-300 text-xl font-normal leading-loose">
-              Empower our clients with marketing strategies that not only inspire but also drive tangible results. 
-              We aim to be a beacon of innovation and excellence in the marketing industry, redefining standards and setting new benchmarks. 
+              Empower our clients with marketing strategies that not only inspire but also drive tangible results.
+              We aim to be a beacon of innovation and excellence in the marketing industry, redefining standards and setting new benchmarks.
               Through collaboration, integrity, and a relentless pursuit of excellence, we aspire to be the trusted partner businesses turn to for success in the digital age.
             </h4>
           </div>
@@ -45,8 +45,8 @@ const Aboutussection = () => {
             <div className="flex flex-col gap-6">
               <h1 className="text-xl font-medium">Our Mission</h1>
               <h4 className="text-purple-300 text-xl font-normal leading-loose">
-                Help our clients achieve their goals by providing high-quality, tailored services. 
-                We use the best methods and techniques to deliver exceptional results, ensuring that each client receives personalized solutions that cater to their unique needs. 
+                Help our clients achieve their goals by providing high-quality, tailored services.
+                We use the best methods and techniques to deliver exceptional results, ensuring that each client receives personalized solutions that cater to their unique needs.
                 We are committed to excellence in every project, striving to exceed expectations and deliver outstanding performance.
               </h4>
             </div>
