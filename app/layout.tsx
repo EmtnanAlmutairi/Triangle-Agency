@@ -1,12 +1,14 @@
-import { Navbar } from "@/components/navbar";
+import { Fira_Code as FontMono, Inter as FontSans } from "next/font/google";
+//
 import AboutUsSection from "@/components/AboutUsSection";
 import Clients from "@/layouts/clients";
 import ServicesSection from "@/components/Servies";
 import OurProjects from "@/components/OurProjects";
 import { Head } from "@/layouts/head";
-import { Fira_Code as FontMono, Inter as FontSans } from "next/font/google";
+import { Navbar } from "@/components/navbar";
 
 import "@/styles/globals.css";
+import Link from "next/link";
 
 const fontSans = FontSans({
   subsets: ["latin"],
@@ -24,7 +26,7 @@ export default function DefaultLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html>
+    <html lang="en">
       {/* <Head /> */}
       <body className="relative flex flex-col h-screen">
         <Navbar />
@@ -45,39 +47,39 @@ export default function DefaultLayout({
                 <h3 className="text-lg font-semibold mb-3 text">Product</h3>
                 <ul className="flex flex-col gap-1">
                   <li>
-                    <a href="#" className="opacity-60 text">
+                    <Link href="#" className="opacity-60 text">
                       Store
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="#" className="opacity-60 text">
+                    <Link href="#" className="opacity-60 text">
                       Developer
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="#" className="opacity-60 text">
+                    <Link href="#" className="opacity-60 text">
                       Teams
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="#" className="opacity-60 text">
+                    <Link href="#" className="opacity-60 text">
                       Pro
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="#" className="opacity-60 text">
+                    <Link href="#" className="opacity-60 text">
                       API Docs
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="#" className="opacity-60 text">
+                    <Link href="#" className="opacity-60 text">
                       Pricing
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="#" className="opacity-60 text">
+                    <Link href="#" className="opacity-60 text">
                       Changelog
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </div>
@@ -86,39 +88,39 @@ export default function DefaultLayout({
                 <h3 className="text-lg font-semibold mb-3 text">Company</h3>
                 <ul className="flex flex-col gap-1">
                   <li>
-                    <a href="#" className="opacity-60 text">
+                    <Link href="#" className="opacity-60 text">
                       Careers
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="#" className="opacity-60 text">
+                    <Link href="#" className="opacity-60 text">
                       Manifesto
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="#" className="opacity-60 text">
+                    <Link href="#" className="opacity-60 text">
                       Privacy policy
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="#" className="opacity-60 text">
+                    <Link href="#" className="opacity-60 text">
                       Terms of Service
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="#" className="opacity-60 text">
+                    <Link href="#" className="opacity-60 text">
                       DPA
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="#" className="opacity-60 text">
+                    <Link href="#" className="opacity-60 text">
                       Press Kit
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="#" className="opacity-60 text">
+                    <Link href="#" className="opacity-60 text">
                       Contact
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </div>
@@ -127,29 +129,29 @@ export default function DefaultLayout({
                 <h3 className="text-lg font-semibold mb-3 text">Community</h3>
                 <ul className="flex flex-col gap-1">
                   <li>
-                    <a href="#" className="opacity-60 text">
+                    <Link href="#" className="opacity-60 text">
                       Community stories
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="#" className="opacity-60 text">
+                    <Link href="#" className="opacity-60 text">
                       Slack
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="#" className="opacity-60 text">
+                    <Link href="#" className="opacity-60 text">
                       Twitter
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="#" className="opacity-60 text">
+                    <Link href="#" className="opacity-60 text">
                       GitHub
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="#" className="opacity-60 text">
+                    <Link href="#" className="opacity-60 text">
                       Dribbble
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </div>
