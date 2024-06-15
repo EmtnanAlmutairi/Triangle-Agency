@@ -12,7 +12,7 @@ const ServicesSection = () => {
         </Card>
         <h2 className="text-center text-3xl font-bold">WHAT WE DO?</h2>
       </div>
-      <div className="grid grid-cols-3 sm:grid-cols-1 gap-8 p-8">
+      <div className="grid md:grid-cols-3 grid-cols-1 gap-8 p-8">
         {/* Card 1 */}
         <Card className="bg-white/opacity-10 rounded-xl border border-slate-600/opacity-20 p-8 flex flex-col justify-center items-center">
           <div className="text-xl font-medium uppercase">
