@@ -1,4 +1,9 @@
+"use client";
+
 import Slider from "react-slick";
+
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 const ImageSlider = () => {
   const settings = {
@@ -25,14 +30,17 @@ const ImageSlider = () => {
     "/Page 19.png",
     "/Page 20.png",
   ];
-  
 
   return (
     <div className="container mx-auto px-4 py-8">
       <Slider {...settings}>
         {images.map((src, index) => (
           <div key={index}>
-            <img src={src} alt={`Slide ${index + 1}`} className="w-full h-auto" />
+            <img
+              src={src}
+              alt={`Slide ${index + 1}`}
+              className="w-full h-auto"
+            />
           </div>
         ))}
       </Slider>
