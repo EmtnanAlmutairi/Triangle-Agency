@@ -8,7 +8,7 @@ import ServicesSection from "@/components/Servies";
 import OurProjects from "@/components/OurProjects";
 import { Head } from "@/layouts/head";
 import { Navbar } from "@/components/navbar";
-
+import Hero from "@/components/hero"
 import "@/styles/globals.css";
 import Link from "next/link";
 import AboutUsSection from "@/components/AboutUsSection";
@@ -39,6 +39,7 @@ export default function DefaultLayout({
           >
             {children}
           </main>
+          <Hero/>
           <AboutUsSection />
           <Clients />
           <ServicesSection />

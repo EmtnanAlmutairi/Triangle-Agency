@@ -9,7 +9,7 @@
 		"lint": "eslint . --ext .ts,.tsx -c .eslintrc.json --fix"
 	},
 	"dependencies": {
-		"@nextui-org/react": "^2.3.6",
+		"@nextui-org/react": "^2.4.2",
 		"@react-aria/i18n": "^3.11.1",
 		"@react-aria/visually-hidden": "^3.8.10",
 		"@types/node": "20.5.7",
