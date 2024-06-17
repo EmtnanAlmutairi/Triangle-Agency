@@ -35,7 +35,7 @@ const Clients = () => {
     '/Gro2.svg',
     '/Group-2.svg',
     '/Group.svg',
-    '/w.svg',
+    '/W.svg',
     '/شعار موسم الرياض  2021 – SVG 1.svg',
     '/Clip path group-1.svg',
     '/Clip path group-2.svg',
