@@ -22,7 +22,7 @@ const ServicesSection = () => {
             Marketing Solutions
           </div>
           <div className="w-44 h-44 py-10 flex justify-center items-center">
-            <img src="../marketing.svg" alt="Vision" className="w-48 h-48" />
+            <img src="/marketing.svg" alt="Vision" className="w-48 h-48" />
           </div>
           <div className="text-purple-300 text-base font-normal">
             Digital Marketing, Marketing Strategy, Growth Hacking, Market
@@ -34,7 +34,7 @@ const ServicesSection = () => {
         <Card className="bg-white/opacity-10 rounded-xl border border-slate-600/opacity-20 p-8 flex flex-col justify-center items-center">
           <div className="text-2xl font-medium">Business Development</div>
           <div className="w-44 h-44 py-10 flex justify-center items-center">
-            <img src="../dev.svg" alt="Vision" className="w-24 h-24" />
+            <img src="/dev.svg" alt="Vision" className="w-24 h-24" />
           </div>
           <div className="text-purple-300 text-base font-normal">
             Business Intelligence, Business Strategy, Localization, Project
@@ -96,7 +96,7 @@ const ServicesSection = () => {
         <Card className="bg-white/opacity-10 rounded-xl border border-slate-600/opacity-20 p-8 flex flex-col justify-center items-center">
           <div className="text-white text-xl font-medium">Production House</div>
           <div className="w-44 h-44 py-10 flex justify-center items-center">
-            <img src="../Production.svg" alt="Vision" className="w-48 h-48" />
+            <img src="/Production.svg" alt="Vision" className="w-48 h-48" />
           </div>
           <div className="text-purple-300 text-xl font-medium">
             Photography, Videography, Advertisement, Motion Graphics
