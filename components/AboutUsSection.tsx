@@ -20,7 +20,7 @@ const Aboutussection = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 w-full">
         <Card className="bg-white bg-opacity-10 border border-slate-600 border-opacity-20 rounded-xl p-8 flex flex-col items-center">
           <div className="w-44 h-44 py-10 flex justify-center items-center">
-            <img src="/clients.svg" alt="Vision" className="w-24 h-24" />
+            <img src="/Clients.svg" alt="Vision" className="w-24 h-24" />
           </div>
           <div className="flex flex-col gap-6">
             <h1 className="text-center text-xl font-medium uppercase">
