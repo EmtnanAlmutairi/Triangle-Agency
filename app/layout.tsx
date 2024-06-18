@@ -74,7 +74,7 @@ export default function DefaultLayout({
                 <img
                   src="/Logo.svg"
                   alt="logo"
-                  className="w-30 h-30 mx-auto mb-2"
+                  className="w-60 h-60 mx-auto mb-2"
                 />
                 <p className="text-zinc-300 text-2xl font-bold">
                   Triangle Agency

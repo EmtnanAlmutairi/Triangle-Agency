@@ -16,7 +16,7 @@ import NextLink from "next/link";
 import clsx from "clsx";
 import { siteConfig } from "@/config/site";
 import { ThemeSwitch } from "@/components/theme-switch";
-import { TwitterIcon, DiscordIcon } from "@/components/icons";
+import { TwitterIcon, DiscordIcon , WhatsAppIcon} from "@/components/icons";
 
 export const Navbar = () => {
   return (
@@ -67,6 +67,9 @@ export const Navbar = () => {
           </Link>
           <Link isExternal href={siteConfig.links.discord}>
             <DiscordIcon className="text-default-500" />
+          </Link>
+          <Link isExternal href={siteConfig.links.whatsapp}>
+            <WhatsAppIcon className="text-default-500" />
           </Link>
           <ThemeSwitch />
         </NavbarItem>

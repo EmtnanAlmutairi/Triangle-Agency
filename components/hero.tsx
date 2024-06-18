@@ -12,12 +12,11 @@ const Hero: React.FC = () => {
                         We transform innovative marketing strategies into powerful results. Our dedicated team works tirelessly to empower clients worldwide, transcending boundaries and inspiring audiences with creativity and strategic insights. We are committed to being the catalyst for your success, delivering unmatched creativity, strategic direction, and measurable ROI.
                     </p>
                     <div className="flex flex-col md:flex-row gap-4">
-                        <Button className="w-full md:w-auto border border-white font-medium bg-black text-white">
-                            GET STARTED
-                        </Button>
-                        <Button className="w-full md:w-auto border border-zinc-300 font-medium mt-4 md:mt-0">
-                            LEARN MORE
-                        </Button>
+                        <a href="mailto:Info@triangle.sa" className="w-full md:w-auto">
+                            <Button className="w-full md:w-auto border border-white font-medium bg-black text-white">
+                                CONTACT US
+                            </Button>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -26,3 +25,4 @@ const Hero: React.FC = () => {
 };
 
 export default Hero;
+
