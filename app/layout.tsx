@@ -49,113 +49,21 @@ export default function DefaultLayout({
               <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                 {/* Product Links */}
                 <div>
-                  <h3 className="text-lg font-semibold mb-3 text">Product</h3>
+                  <h3 className="text-lg font-semibold mb-3 text">Quick Links</h3>
                   <ul className="flex flex-col gap-1">
                     <li>
-                      <Link href="#" className="opacity-60 text">
-                        Store
+                      <Link href="/#about-us" className="opacity-60 text">
+                        About us
+                      </Link> 
+                    </li>
+                    <li>
+                      <Link href="/#services" className="opacity-60 text">
+                      Services
                       </Link>
                     </li>
                     <li>
-                      <Link href="#" className="opacity-60 text">
-                        Developer
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="#" className="opacity-60 text">
-                        Teams
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="#" className="opacity-60 text">
-                        Pro
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="#" className="opacity-60 text">
-                        API Docs
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="#" className="opacity-60 text">
-                        Pricing
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="#" className="opacity-60 text">
-                        Changelog
-                      </Link>
-                    </li>
-                  </ul>
-                </div>
-                {/* Company Links */}
-                <div>
-                  <h3 className="text-lg font-semibold mb-3 text">Company</h3>
-                  <ul className="flex flex-col gap-1">
-                    <li>
-                      <Link href="#" className="opacity-60 text">
-                        Careers
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="#" className="opacity-60 text">
-                        Manifesto
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="#" className="opacity-60 text">
-                        Privacy policy
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="#" className="opacity-60 text">
-                        Terms of Service
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="#" className="opacity-60 text">
-                        DPA
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="#" className="opacity-60 text">
-                        Press Kit
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="#" className="opacity-60 text">
-                        Contact
-                      </Link>
-                    </li>
-                  </ul>
-                </div>
-                {/* Community Links */}
-                <div>
-                  <h3 className="text-lg font-semibold mb-3 text">Community</h3>
-                  <ul className="flex flex-col gap-1">
-                    <li>
-                      <Link href="#" className="opacity-60 text">
-                        Community stories
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="#" className="opacity-60 text">
-                        Slack
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="#" className="opacity-60 text">
-                        Twitter
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="#" className="opacity-60 text">
-                        GitHub
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="#" className="opacity-60 text">
-                        Dribbble
+                      <Link href="/#our-projects" className="opacity-60 text">
+                      our projects
                       </Link>
                     </li>
                   </ul>
