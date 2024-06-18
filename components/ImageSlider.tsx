@@ -1,9 +1,12 @@
-import React, { useState } from 'react';
-import Slider from 'react-slick';
-import Modal from 'react-modal';
+"use client";
+
+import Slider from "react-slick";
+import React, { useState } from "react";
+import Modal from "react-modal";
 import XIcon from './icons'; // Adjust the path as per your project structure
-import 'slick-carousel/slick/slick.css';
-import 'slick-carousel/slick/slick-theme.css';
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import { Button } from "@nextui-org/react";
 
 const ImageSlider = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -35,8 +38,17 @@ const ImageSlider = () => {
   ];
 
   const slides = images.map((src, index) => (
-    <div key={index} onClick={() => openModal(src)}>
-      <img src={src} alt={`Slide ${index + 1}`} className="w-full h-auto cursor-pointer" />
+    <div
+      key={index}
+      role="button"
+      tabIndex={0}
+      onClick={() => openModal(src)}
+      onKeyPress={(e) => {
+        if (e.key === 'Enter' || e.key === ' ') openModal(src);
+      }}
+      className="w-full h-auto cursor-pointer"
+    >
+      <img src={src} alt={`Slide ${index + 1}`} className="w-full h-auto" />
     </div>
   ));
 
@@ -54,9 +66,9 @@ const ImageSlider = () => {
       <Slider {...settings}>{slides}</Slider>
       <Modal isOpen={isOpen} onRequestClose={closeModal} contentLabel="Image Modal" className="flex items-center justify-center">
         <div className="relative">
-          <button onClick={closeModal} className="absolute top-0 right-0 mt-2 mr-2 bg-gray-800 text-white p-2 rounded">
-            <XIcon className="h-6 w-6" /> {/* Adjust size as needed */}
-          </button>
+          <Button onClick={closeModal} className="absolute top-0 right-0 mt-2 mr-2 bg-gray-800 text-white p-2 rounded">
+            <XIcon className="h-6 w-6" />
+          </Button>
           <img src={currentImage} alt="Enlarged view" className="max-w-full max-h-full" />
         </div>
       </Modal>
