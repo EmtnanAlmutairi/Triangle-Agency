@@ -206,3 +206,18 @@ export const WhatsAppIcon = (props: IconSvgProps) => (
     />
   </svg>
 );
+const XIcon = (props: React.SVGProps<SVGSVGElement>) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 20 20"
+    fill="currentColor"
+    {...props}
+  >
+    <path
+      fillRule="evenodd"
+      d="M14.707 5.293a1 1 0 011.414 1.414L11.414 10l4.707 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.707a1 1 0 01-1.414-1.414L8.586 10 3.879 5.293a1 1 0 011.414-1.414L10 8.586l4.707-4.293z"
+      clipRule="evenodd"
+    />
+  </svg>
+);
+export default XIcon;
